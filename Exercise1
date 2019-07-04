@@ -148,4 +148,40 @@ docker build -t exercise1_10 -f Dockerfile ./
 docker run -p 5000:5000 exercise1_10
 
 1.11
-See file in repository
+See file and results in repository
+
+1.12
+See file and results in repository
+
+1.13
+See file and results in repository
+
+1.14
+See file and results in repostory
+
+1.15
+https://cloud.docker.com/repository/docker/justinsampledocker1/simpleubuntudocker_1604
+
+1.16
+remote: -----> Launching...
+remote:        Released v6
+remote:        https://jr-heroku-example-app.herokuapp.com/ deployed to Heroku
+remote: 
+remote: Verifying deploy... done.
+To https://git.heroku.com/jr-heroku-example-app.git
+ * [new branch]      master -> master
+root@73bfd8094fa4:/usr/app#
+
+
+1.17
+docker pull store/eclipse/che:5.1.2
+docker run -p 8080:8080 store/eclipse/che:5.1.2 /bin/bash
+
+2.1
+docker-compose.yml in git repository
+
+2.2
+docker compose file in git repository
+
+2.3
+docker compose file in git repository

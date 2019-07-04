@@ -1,0 +1,6 @@
+# Sample docker project
+
+Link to docker repository:
+https://cloud.docker.com/repository/docker/justinsampledocker1/simpleubuntudocker_1604
+
+Deploys a Ubuntu 16.04 instance with a nodejs (Gatsby) application
