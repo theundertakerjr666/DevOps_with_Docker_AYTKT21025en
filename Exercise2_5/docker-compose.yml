@@ -1,0 +1,18 @@
+version: '3.5'
+services:
+  redisdb:
+      image: redis
+      ports:
+        - 6379:6379
+      container_name: redis
+  exercise2_5_back:
+      image: exercise2_5_back
+      ports:
+        - 8000:8000
+        - 6380:6380
+      container_name: exercise2_5_back
+  exercise1_12:
+      image: exercise1_12
+      ports:
+        - 5000:5000
+      container_name: exercise1_12

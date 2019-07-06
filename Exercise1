@@ -185,3 +185,24 @@ docker compose file in git repository
 
 2.3
 docker compose file in git repository
+
+2.4
+scaling-exercise$ docker-compose up -d --scale compute=3
+Starting load-balancer              ... done
+Starting calculator                 ... done
+Starting scaling-exercise_compute_1 ... done
+Creating scaling-exercise_compute_2 ... done
+Creating scaling-exercise_compute_3 ... done
+
+2.5
+docker compose file in git repository
+
+2.6
+docker compose file in git repository
+Exercise2_6$ docker-compose up -d 
+db_pg is up-to-date
+Starting exercise2_6_back ... done
+Creating exercise1_12     ... done
+Creating redis            ... done
+
+
