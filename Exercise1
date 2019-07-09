@@ -269,3 +269,42 @@ Epoch 5/5
 
 2.8
 docker compose file in git repository
+
+
+2.9
+creation of postgres db from docker-compose.yml was sucessful
+Exercise2_9$ docker-compose up
+exercise2_9_adminer_1 is up-to-date
+Creating db_pg ... done
+Attaching to exercise2_9_adminer_1, db_pg
+...
+db_pg      | PostgreSQL init process complete; ready for start up.
+db_pg      | 
+db_pg      | 2019-07-09 10:13:46.945 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+db_pg      | 2019-07-09 10:13:46.946 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+db_pg      | 2019-07-09 10:13:46.952 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+db_pg      | 2019-07-09 10:13:46.975 UTC [51] LOG:  database system was shut down at 2019-07-09 10:13:46 UTC
+db_pg      | 2019-07-09 10:13:46.994 UTC [1] LOG:  database system is ready to accept connections
+adminer_1  | [Tue Jul  9 10:16:12 2019] [::ffff:172.26.0.1]:46054 [200]: /
+adminer_1  | [Tue Jul  9 10:16:12 2019] [::ffff:172.26.0.1]:46058 [200]: /?file=default.css&version=4.7.1
+adminer_1  | [Tue Jul  9 10:16:12 2019] [::ffff:172.26.0.1]:46062 [200]: /?file=functions.js&version=4.7.1
+adminer_1  | [Tue Jul  9 10:16:12 2019] [::ffff:172.26.0.1]:46072 [200]: /?file=favicon.ico&version=4.7.1
+adminer_1  | [Tue Jul  9 10:16:12 2019] [::ffff:172.26.0.1]:46076 [200]: /?script=version
+adminer_1  | [Tue Jul  9 10:16:28 2019] [::ffff:172.26.0.1]:46112 [302]: /
+adminer_1  | [Tue Jul  9 10:16:31 2019] [::ffff:172.26.0.1]:46116 [403]: /?pgsql=postgres&username=postgres
+adminer_1  | [Tue Jul  9 10:16:42 2019] [::ffff:172.26.0.1]:46146 [302]: /?pgsql=postgres&username=postgres
+adminer_1  | [Tue Jul  9 10:16:42 2019] [::ffff:172.26.0.1]:46150 [403]: /?pgsql=localhost&username=postgres&db=postgres
+
+
+3.1
+See result files in folder Exercise3_1
+
+3.2
+See result files in folder Exercise3_2
+
+3.3
+See result files in folder Exercise3_3
+
+3.4
+See result files in folder Exercise3_4
+
