@@ -16,6 +16,7 @@ ENV DB_USERNAME=postgres
 ENV DB_PASSWORD=postgres
 ENV DB_NAME=postgres
 ENV DB_HOST=ThinkPad-X1-Carbon-5th
+ENV NODE_ENV="production"
 ENV FRONT_URL="http://localhost:5000 npm start"
 RUN npm install webpack && \
     npm install && \

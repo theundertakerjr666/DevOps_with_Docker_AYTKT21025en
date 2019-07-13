@@ -3,7 +3,10 @@ FROM ubuntu:16.04
 ENV LC_ALL=C.UTF-8 
 WORKDIR /app
 RUN apt-get update && apt-get install -y wget
-RUN apt-get install -y python curl 
+RUN apt-get install -y python curl
+
+FROM nginx
+
 COPY frontend-example-docker .
 RUN curl -sL https://deb.nodesource.com/setup_10.x | bash
 RUN apt-get install -y nodejs 
@@ -12,11 +15,11 @@ EXPOSE 5000
 ENV NODE_ENV="production"
 ENV API_URL="http://localhost:8000 npm start"
 RUN npm install webpack && \
-    npm install && \
+    npm install -g serve && \
     chown -R node:node /app
 
 USER node
  
 WORKDIR /app 
 
-ENTRYPOINT API_URL=http://localhost:8000 npm start
+RUN serve -s -l 5000 dist
