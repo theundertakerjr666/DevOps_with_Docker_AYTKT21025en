@@ -14,3 +14,5 @@ Monitoring of resources would be more difficult as logging systems would need to
 
 Beyond containers, Docker also supports public/private cloud deplyments and also onon virtualised(bare metal) instances. This increases its usability in the real world as a devops tool.
 
+References:
+* https://docs.docker.com/
