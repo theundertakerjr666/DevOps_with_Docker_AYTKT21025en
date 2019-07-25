@@ -10,5 +10,5 @@ By actively monitoring and logging service instance. It would be more effective 
 Minimum downtime as possible.
 
 References:
-https://kubernetes.io/
-https://kubevirt.io/
+* https://kubernetes.io/
+* https://kubevirt.io/
